@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fb76fb5a-a608-4048-bd0b-d2aef87b161c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{c5aa45e9-c4e5-4681-ae00-3861767e7538}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="常规" languagecode="2052" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eecf1a7f-ca02-489e-b136-1f153bbb2d91}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="常规" languagecode="2052" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{af8fa374-a35f-41e3-8b76-4061cb78883c}">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                          <label description="主题" languagecode="2052" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{faa936fa-d841-4c68-9f86-331b8e7728c2}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae37cd29-2dfb-4f60-93a7-1a87a4bbafc5}">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" />
+                          <label description="关于" languagecode="2052" />
+                        </labels>
+                        <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65a60287-a4ea-34c6-2014-521168cb3811}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity Additional Parameters" languagecode="1033" />
+                          <label description="活动附加参数" languagecode="2052" />
+                        </labels>
+                        <control id="activityadditionalparams" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="activityadditionalparams" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24146929-6052-1957-e54a-a62b0d5ac770}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Customers" languagecode="1033" />
+                          <label description="客户" languagecode="2052" />
+                        </labels>
+                        <control id="customers" classid="{CBFB742C-14E7-4a17-96BB-1A13F7F64AA2}" datafieldname="customers" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{3536a590-f24f-4479-bc31-7d623006ab8f}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                    <label description="注释" languagecode="2052" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{e7290dcf-c79e-43c8-9829-8a06559197b8}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="注释文字" languagecode="2052" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2db9c31b-00c3-4ffb-870e-77ef18a63f84}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{4b2e42e6-1f61-4e1a-b388-33d1ff3a8349}">
+              <labels>
+                <label description="Priority" languagecode="1033" />
+                <label description="优先级" languagecode="2052" />
+              </labels>
+              <control id="header_prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+            </cell>
+            <cell id="{4107b1fb-5d28-426e-8677-954f1727fb53}">
+              <labels>
+                <label description="Due Date" languagecode="1033" />
+                <label description="截止日期" languagecode="2052" />
+              </labels>
+              <control id="header_scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+            </cell>
+            <cell id="{bb07e86d-d3cc-4c12-aed6-6c0b280f38d3}">
+              <labels>
+                <label description="Activity Status" languagecode="1033" />
+                <label description="活动状态" languagecode="2052" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{7367801f-26fb-41e4-9e0b-e6b48b59f4ca}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="负责人" languagecode="2052" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
