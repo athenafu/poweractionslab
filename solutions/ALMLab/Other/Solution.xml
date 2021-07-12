@@ -6,7 +6,7 @@
       <LocalizedName description="ALMLab" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0</Version>
+    <Version>1.1</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>athenapublisher</UniqueName>
@@ -81,11 +81,44 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="new_customactivity" behavior="1" />
+      <RootComponent type="60" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
         <Required type="1" schemaName="new_customactivity" displayName="CustomActivity" solution="Active" />
         <Dependent type="1" schemaName="new_customactivity" displayName="CustomActivity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="activityadditionalparams" displayName="Activity Additional Parameters" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="customers" displayName="Customers" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="prioritycode" displayName="Priority" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="scheduledend" displayName="Due Date" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Activity Status" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subject" displayName="Subject" parentSchemaName="new_customactivity" parentDisplayName="CustomActivity" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="CustomActivity" id="{fb76fb5a-a608-4048-bd0b-d2aef87b161c}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

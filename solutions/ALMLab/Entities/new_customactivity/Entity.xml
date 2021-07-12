@@ -79,5 +79,6 @@
       <HasRelatedFeedback>True</HasRelatedFeedback>
     </entity>
   </EntityInfo>
+  <FormXml />
   <RibbonDiffXml />
 </Entity>
